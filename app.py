@@ -10,13 +10,13 @@ st.set_page_config(
 )
 
 # --- 🎵 ŞAMPİYONLAR LİGİ İNTRO & OTOMATİK MÜZİK ---
-# 1. Yıldızlı Intro Görseli (GIF)
+# 1. Orijinal Şampiyonlar Ligi Görseli
 st.image(
-    "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1eHRqYnI3MjFkZXlycmNydm85bjYxa3k3YXlqNXAwZjY1cWFkZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1QMTl9ggmYvTXJSEd/giphy.gif",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/UEFA_Champions_League_logo_2021.svg/1200px-UEFA_Champions_League_logo_2021.svg.png",
     use_container_width=True,
 )
 
-# 2. Şampiyonlar Ligi Marşı (Sayfa Açılır Açılmaz Otomatik Çalar)
+# 2. Şampiyonlar Ligi Marşı (Otomatik Çalar)
 st.audio(
     "https://ia801902.us.archive.org/24/items/tvtunes_6612/UEFA%20Champions%20League%20-%202004-2005.mp3",
     format="audio/mp3",
@@ -26,24 +26,14 @@ st.audio(
 # --- BAŞLIK VE MESAJLAR ---
 st.title("🏆 2026-27 UEFA Şampiyonlar Ligi Kura Simülasyonu")
 
-# Seçenek 3: Özel Duyuru / Selam Panosu
-st.info(
-    "👋 **Turnuva Ekibine Özel:** Devler ligi kura çekimine hoş geldiniz!"
-    " Efsanevi marşımız eşliğinde kura coşkusu başladı."
-)
+# 1. Turnuva ekibine özel (Büyük Harflerle)
+st.info("👋 **DEVLER LİGİ KURA ÇEKİMİNE HOŞ GELDİNİZ!**")
 
-# Seçenek 1: Renkli Karşılama ve Kurallar
-st.success(
-    "🎉 **Kura Kuralları:** Aynı ülkeden en fazla 2 rakip gelebilir! En zor"
-    " gruba düşen yemeği ısmarlar, mızıkçılık yok! 🔥"
-)
+# 2. Kura kuralları kaldırıldı.
 
-# Seçenek 2: Tıklayınca Açılan Gizli Sürpriz Kutusu
+# 3. Arkadaşlara özel gizli mesaj
 with st.expander("🎁 **Arkadaşlara Özel Gizli Mesaj (Tıklamadan Geçme!)**"):
-    st.write(
-        "Beyler kura %100 UEFA algoritmasına uygun ve hilesizdir! Şikayetler"
-        " kabul edilmez. 😂"
-    )
+    st.write("🖕🏿")
 
 st.write("---")
 st.write(
