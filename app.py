@@ -10,9 +10,9 @@ st.set_page_config(
 )
 
 # --- 🎵 ŞAMPİYONLAR LİGİ İNTRO & OTOMATİK MÜZİK ---
-# 1. Orijinal Şampiyonlar Ligi Görseli (Çalışan Bağlantı)
+# 1. Orijinal Şampiyonlar Ligi Stadyum İntro Görseli
 st.image(
-    "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/UEFA_Champions_League_logo_2021.svg/1200px-UEFA_Champions_League_logo_2021.svg.png",
+    "https://wallpaperaccess.com/full/1567626.jpg",
     use_container_width=True,
 )
 
@@ -29,7 +29,7 @@ st.title("🏆 2026-27 UEFA Şampiyonlar Ligi Kura Simülasyonu")
 # 1. Turnuva ekibine özel (Büyük Harflerle)
 st.info("👋 **DEVLER LİGİ KURA ÇEKİMİNE HOŞ GELDİNİZ!**")
 
-# 2. Arkadaşlara özel gizli mesaj (Sadece istenen emoji)
+# 2. Arkadaşlara özel gizli mesaj
 with st.expander("🎁 **Arkadaşlara Özel Gizli Mesaj (Tıklamadan Geçme!)**"):
     st.write("🖕🏿")
 
