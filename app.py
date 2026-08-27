@@ -9,14 +9,7 @@ st.set_page_config(
     page_icon="🏆",
 )
 
-# --- 🎵 ŞAMPİYONLAR LİGİ İNTRO & OTOMATİK MÜZİK ---
-# 1. Orijinal Şampiyonlar Ligi Stadyum İntro Görseli
-st.image(
-    "https://wallpaperaccess.com/full/1567626.jpg",
-    use_container_width=True,
-)
-
-# 2. Şampiyonlar Ligi Marşı (Otomatik Çalar)
+# --- 🎵 ŞAMPİYONLAR LİGİ OTOMATİK MÜZİK ---
 st.audio(
     "https://ia801902.us.archive.org/24/items/tvtunes_6612/UEFA%20Champions%20League%20-%202004-2005.mp3",
     format="audio/mp3",
