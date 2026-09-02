@@ -1,1 +1,0 @@
-# -sampiyonlar-ligi-kura-
